@@ -3,7 +3,7 @@ package com.mycompany.invoise.controller;
 import com.mycompany.invoise.entity.Invoice;
 import com.mycompany.invoise.service.InvoiceServiceInterface;
 
-public class InvoiceControllerMichel implements InvoiceControllerInterface {
+public class InvoiceControllerChambouleToutMagasin2 implements InvoiceControllerInterface{
 
     private InvoiceServiceInterface invoiceService;
 
@@ -15,12 +15,11 @@ public class InvoiceControllerMichel implements InvoiceControllerInterface {
         this.invoiceService = invoiceService;
     }
 
+    @Override
     public void createInvoice() {
-        String customerName = "Tesla";
+        System.out.println("Usage of a scanner");
         Invoice invoice = new Invoice();
-        invoice.setCustomerName(customerName);
-
-        //InvoiceServiceMichel invoiceServiceMichel = new InvoiceServiceMichel();
+        invoice.setCustomerName("Virgin Galactic");
         invoiceService.createInvoice(invoice);
     }
 }
