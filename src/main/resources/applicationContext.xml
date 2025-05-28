@@ -6,6 +6,9 @@
 
     <bean id="invoiceService" class="com.mycompany.invoise.service.InvoiceServicePrefix">
         <property name="invoiceRepository" ref="invoiceRepository"/>
+        <property name="LastNumber" value="112" />
+        <property name="prefix" value="INV_" />
+        <property name="fichier" value="D:\\temp\\toto.txt" />
     </bean>
 
     <bean class="com.mycompany.invoise.controller.InvoiceControllerWeb">
