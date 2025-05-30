@@ -1,5 +1,5 @@
-## Bien débuter avec Spring et Spring Boot pour Java<br>
-# Ce que vous devez absolument savoir pour développer avec Spring, Spring Boot, Spring MVC, Spring Data, Spring Cloud..<br>
+# Bien débuter avec Spring et Spring Boot pour Java<br>
+## Ce que vous devez absolument savoir pour développer avec Spring, Spring Boot, Spring MVC, Spring Data, Spring Cloud..<br>
 
 
 Dans ce repository je me contente de suivre l'excellent cours Udemy de monsieur EHRET "Bien débuter avec Spring et Spring Boot pour Java" <br>
@@ -10,7 +10,7 @@ Ce professionnel expérimenté et très pointu dans son domaine, vivant actuelle
 Son projet "fil rouge" est une solution de génération de factures à destination de petites entreprises.<br>
 Il nous explique "pourquoi Spring" ?<br>
 Nous allons le comprendre de mieux en mieux tout au long de "cette formation", "ce cours" , mais la finalité de Spring est la flexibilité des applications. (Ainsi que la cohérence) <br>
-Il commence par crée 3 solutions de facturation pour des petites entreprises différentes, un garage ... Un entreprise "ChambouleTout" (!) <br>
+Il commence par crée 3 solutions de facturation pour des petites entreprises différentes, un garage ... Un entreprise "ChambouleTout" (!) , le tout à partir d'une même application java <br>
 Comment découpler les responsabilités afin de faire évoluer et adapter notre application afin de répondre aux besoins de tout ces différents clients dans une meme application?<br>
 Tout d'abord, en java "basique" , puis en suivant le pattern de la programmation par "contrat" , ie , une interface java.<br>
 Mais notre application est elle suffisamment flexible pour autant?Non! Nous allons donc utiliser l' injection de dépendances (correspond à l'exercice 4) ,  <br>
