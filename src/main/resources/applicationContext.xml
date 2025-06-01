@@ -5,6 +5,7 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="movieRepository" class="com.mycompany.dvdstore.repository.FileMovieRepository">
+<<<<<<< HEAD
         <property name="file" value="C:\\temp\\movies.csv"/>
     </bean>
 
@@ -14,7 +15,18 @@
 
     <bean id="movieController" class="com.mycompany.dvdstore.controller.MovieController">
         <property name="movieService" ref="movieService"/>
+=======
+<!--        <property name="file" value="C:\\temp\\movies.csv"/>-->
     </bean>
-    
+
+    <bean id="movieService" class="com.mycompany.dvdstore.service.DefaultMovieService">
+<!--        <property name="movieRepository" ref="movieRepository"/>-->
+    </bean>
+
+    <bean id="movieController" class="com.mycompany.dvdstore.controller.MovieController">
+<!--        <property name="movieService" ref="movieService"/>-->
+>>>>>>> 0155f9e (Modification du fichier applicationContext.xml)
+    </bean>
+
 
 </beans>
